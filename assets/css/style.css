@@ -2103,7 +2103,7 @@ textarea.form-control {
 
 .form-control.is-valid,
 .was-validated .form-control:valid {
-    border-color: #28a745;
+    border-color: #d51816;
     padding-right: calc(1.5em + .75rem);
     background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E");
     background-repeat: no-repeat;
@@ -2113,7 +2113,7 @@ textarea.form-control {
 
 .form-control.is-valid:focus,
 .was-validated .form-control:valid:focus {
-    border-color: #28a745;
+    border-color: #d51816;
     box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25)
 }
 
@@ -2125,20 +2125,20 @@ textarea.form-control.is-valid {
 
 .custom-select.is-valid,
 .was-validated .custom-select:valid {
-    border-color: #28a745;
+    border-color: #d51816;
     padding-right: calc(.75em + 2.3125rem);
     background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3E%3Cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") no-repeat right .75rem center/8px 10px, url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3E%3Cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem)
 }
 
 .custom-select.is-valid:focus,
 .was-validated .custom-select:valid:focus {
-    border-color: #28a745;
+    border-color: #d51816;
     box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25)
 }
 
 .form-check-input.is-valid~.form-check-label,
 .was-validated .form-check-input:valid~.form-check-label {
-    color: #28a745
+    color: #d51816
 }
 
 .form-check-input.is-valid~.valid-feedback,
@@ -2150,18 +2150,18 @@ textarea.form-control.is-valid {
 
 .custom-control-input.is-valid~.custom-control-label,
 .was-validated .custom-control-input:valid~.custom-control-label {
-    color: #28a745
+    color: #d51816
 }
 
 .custom-control-input.is-valid~.custom-control-label:before,
 .was-validated .custom-control-input:valid~.custom-control-label:before {
-    border-color: #28a745
+    border-color: #d51816
 }
 
 .custom-control-input.is-valid:checked~.custom-control-label:before,
 .was-validated .custom-control-input:valid:checked~.custom-control-label:before {
-    border-color: #34ce57;
-    background-color: #34ce57
+    border-color: #d51816;
+    background-color: #d51816
 }
 
 .custom-control-input.is-valid:focus~.custom-control-label:before,
@@ -2173,12 +2173,12 @@ textarea.form-control.is-valid {
 .custom-file-input.is-valid~.custom-file-label,
 .was-validated .custom-control-input:valid:focus:not(:checked)~.custom-control-label:before,
 .was-validated .custom-file-input:valid~.custom-file-label {
-    border-color: #28a745
+    border-color: #d51816
 }
 
 .custom-file-input.is-valid:focus~.custom-file-label,
 .was-validated .custom-file-input:valid:focus~.custom-file-label {
-    border-color: #28a745;
+    border-color: #d51816;
     box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25)
 }
 
@@ -16255,7 +16255,7 @@ h4+.spacer {
 }
 
 .color-success {
-    color: #88df00!important
+    color: #d51816!important
 }
 
 .color-danger {
@@ -16491,7 +16491,7 @@ fieldset[disabled] a.btn {
 
 .btn-secondary:hover {
     color: #222430;
-    background-color: #a3ff12
+    background-color: #d51816
 }
 
 .btn-success {
@@ -18159,7 +18159,7 @@ a:hover~.dl-toggle:before {
     outline: none;
     box-shadow: none;
     background-color: transparent;
-    border-color: #88df00
+    border-color: #d51816
 }
 
 .form-control.has-success {
@@ -18834,7 +18834,7 @@ body:not(.cursor-is--active) .select-wrapper select {
     width: 6px;
     height: 2px;
     content: "";
-    background-color: #a3ff12;
+    background-color: #d51816;
     transition: background-color .3s ease
 }
 
@@ -18855,7 +18855,7 @@ body:not(.cursor-is--active) .select-wrapper select {
 }
 
 .add-icon:hover {
-    border-color: #a3ff12
+    border-color: #fff
 }
 
 .info-box__content,
@@ -23108,12 +23108,12 @@ body:not(.cursor-is--active) .top-bar-carousel .slick-arrow {
 
 .top-bar-carousel .slick-prev {
     left: 0;
-    border-right: 1px solid #242633
+    border-right: 1px solid #d51816
 }
 
 .top-bar-carousel .slick-next {
     right: 0;
-    border-left: 1px solid #242633
+    border-left: 1px solid #d51816
 }
 
 .menu-panel__mobile-bar {
@@ -23200,7 +23200,7 @@ body:not(.cursor-is--active) .widget-partners-mobile-carousel .slick-arrow {
 }
 
 .widget-partners-mobile-carousel .slick-arrow:hover svg {
-    fill: #a3ff12
+    fill: #d51816
 }
 
 .widget-partners-mobile-carousel .slick-prev {
@@ -24397,7 +24397,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
 }
 
 .widget-partners-carousel .slick-arrow:hover svg {
-    fill: #a3ff12
+    fill: #d51816
 }
 
 .widget-partners-carousel .slick-next {
@@ -24518,7 +24518,7 @@ body:not(.cursor-is--active) .widget-partners-carousel .slick-arrow {
 }
 
 .widget-carousel .player__thumbnail .more-info-link:hover {
-    color: #a3ff12
+    color: #d51816
 }
 
 .widget-carousel .player__thumbnail .more-info-link .add-icon {
@@ -28488,7 +28488,7 @@ body:not(.cursor-is--active) .product--single .slick-slider .slick-arrow {
 .product--single .slick-slider .slick-arrow svg {
     width: 8px;
     height: 14px;
-    fill: #222430
+    fill: #d51816
 }
 
 .product--single .slick-slider .slick-prev {
@@ -29063,27 +29063,27 @@ body:not(.cursor-is--active) .product--single .slick-slider .slick-arrow {
 
 .match-overview .match-result--winner-left .match-result__score:before {
     left: -16px;
-    border-left: 6px solid #a3ff12
+    border-left: 6px solid #d51816
 }
 
 @media (min-width:576px) {
     .match-overview .match-result--winner-left .match-result__score:before {
         left: -20px;
-        border-left: 8px solid #a3ff12
+        border-left: 8px solid #d51816
     }
 }
 
 @media (min-width:768px) {
     .match-overview .match-result--winner-left .match-result__score:before {
         left: -22px;
-        border-left: 10px solid #a3ff12
+        border-left: 10px solid #d51816
     }
 }
 
 @media (min-width:992px) {
     .match-overview .match-result--winner-left .match-result__score:before {
         left: -35px;
-        border-left: 14px solid #a3ff12
+        border-left: 14px solid #d51816
     }
 }
 
@@ -29097,7 +29097,7 @@ body:not(.cursor-is--active) .product--single .slick-slider .slick-arrow {
 .match-score-inline .match-result--winner-right .match-result__score:before,
 .match-score .match-result--winner-right .match-result__score:before,
 .match-stats-widget .match-result--winner-right .match-result__score:before {
-    border-right: 4px solid #a3ff12
+    border-right: 4px solid #d51816
 }
 
 @media (min-width:1920px) {
@@ -29126,27 +29126,27 @@ body:not(.cursor-is--active) .product--single .slick-slider .slick-arrow {
 
 .match-overview .match-result--winner-right .match-result__score:before {
     right: -16px;
-    border-right: 6px solid #a3ff12
+    border-right: 6px solid #d51816
 }
 
 @media (min-width:576px) {
     .match-overview .match-result--winner-right .match-result__score:before {
         right: -20px;
-        border-right: 8px solid #a3ff12
+        border-right: 8px solid #d51816
     }
 }
 
 @media (min-width:768px) {
     .match-overview .match-result--winner-right .match-result__score:before {
         right: -22px;
-        border-right: 10px solid #a3ff12
+        border-right: 10px solid #d51816
     }
 }
 
 @media (min-width:992px) {
     .match-overview .match-result--winner-right .match-result__score:before {
         right: -35px;
-        border-right: 14px solid #a3ff12
+        border-right: 14px solid #d51816
     }
 }
 
@@ -29981,19 +29981,19 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .team-1:not(.match-player--small) .match-player__avatar:before {
-    background-color: #a3ff12
+    background-color: #d51816
 }
 
 .team-2:not(.match-player--small) .match-player__avatar:before {
-    background-color: #6e4aff
+    background-color: #d51816
 }
 
 .team-3:not(.match-player--small) .match-player__avatar:before {
-    background-color: #d51633
+    background-color: #d51816
 }
 
 .team-4:not(.match-player--small) .match-player__avatar:before {
-    background-color: #faca21
+    background-color: #d51816
 }
 
 .team-5:not(.match-player--small) .match-player__avatar:before {
@@ -30018,7 +30018,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
     width: 24px;
     height: 24px;
     vertical-align: middle;
-    fill: #a3ff12
+    fill: #d51816
 }
 
 .match-player__name {
@@ -31073,7 +31073,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .match-team-logo--team-1:before {
-    border-color: #a3ff12
+    border-color: #d51816
 }
 
 .match-team-logo--team-2:before {
@@ -31561,7 +31561,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 }
 
 .matches-filter .cs-select .cs-placeholder:hover {
-    color: #a3ff12
+    color: #d51816
 }
 
 .matches-filter .cs-select .cs-placeholder:hover:before {
@@ -32307,7 +32307,7 @@ body:not(.cursor-is--active) .matches-scores__navigation.slick-slider .slick-arr
 
 .upcoming-table__date span,
 .upcoming-table__tickets {
-    color: #a3ff12
+    color: #d51816
 }
 
 .upcoming-table__date {
@@ -33794,7 +33794,7 @@ body:not(.cursor-is--active) .player-info-carousel .slick-arrow {
 }
 
 .player-info-carousel .slick-arrow:hover svg {
-    fill: #a3ff12
+    fill: #d51816
 }
 
 .player-info-carousel .slick-prev {
