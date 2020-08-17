@@ -20647,7 +20647,7 @@ body:not(.cursor-is--active) .site-overlay {
 }
 
 .social-menu--default li a:before {
-    color: #d51816
+    color: #fff
 }
 
 @media (min-width:1920px) {
